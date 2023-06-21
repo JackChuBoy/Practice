@@ -1,0 +1,19 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "waitFor": "onCreateCommand",
+    "postCreateCommand": "",
+    "customizations": {
+      "codespaces": {
+        "openFiles": []
+      },
+      "vscode": {
+        "extensions": [
+			"ms-toolsai.jupyter",
+			"ms-python.python",
+			"TabNine.tabnine-vscode",
+			"DavidAnson.vscode-markdownlint",
+			"donjayamanne.python-extension-pack"
+		]
+      }
+    }
+  }
